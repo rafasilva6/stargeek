@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body1 {
+    background-image: url(../img/fundoo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+.body2 {
+    background-color: black;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cabecalho>img {
+    height: 40px;
+}
+
+.cabecalho2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    color: black;
+
+}
+
+.img2 {
+    height: 250px;
+    margin-left: 150px;
+}
+
+.div1 {
+    border-radius: 25px;
+    background-color: black;
+    width: 460px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.p {
+    color: white;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 25px;
+
+}
+
+.botao {
+    border-radius: 15px;
+    margin-left: 100px;
+    width: 250px;
+    height: 30px;
+    border: 3px solid rgb(150, 53, 164);
+}
+
+.botao2 {
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 300px;
+    height: 10px;
+    border: 3px solid rgb(150, 53, 164);
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.botao2>img {
+    width: 20px;
+}
+
+.botao3 {
+
+    width: 150px;
+    height: 30px;
+    border: 3px solid rgb(150, 53, 164);
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+}
+
+.senha {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 40px;
+    color: white;
+}
+
+.botao-resumo {
+    border-radius: 15px;
+    margin-left: 100px;
+    width: 250px;
+    height: 70px;
+    border: 3px solid rgb(150, 53, 164);
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu>li>a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(104, 102, 104);
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 600;
+}
+
+.menu>li:hover {
+    background-color: rgb(147, 147, 147);
+
+    text-shadow: 2px 5px rgb(255, 255, 255);
+}
+
+.p2 {
+    margin-left: 430px;
+}
+
+.p2-font {
+    font-size: 25px;
+}
+
+.botao4 {
+    background-color: rgb(150, 53, 164);
+    width: 300px;
+    height: 45px;
+    border-radius: 15px;
+    border: solid black;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bolder;
+    color: white;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.divflex {
+    display: flex;
+}
+
+.p3 {
+    margin-left: 80px;
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px rgb(150, 53, 164);
+}
+.img3{
+    width: 110px;
+    height: 38px;
+    margin-left: 500px;
+}
+.hr{
+    border: black;
+    height: 5px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(150,53,164,1) 50%, rgba(0,0,0,1) 100%);
+
+}
+
+.card-imagem {
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card-imagem>img {
+    width: 50%;
+}
+
+.card-imagem>div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card-imagem>h2 {
+    margin-left: 80px;
+    margin-bottom: 80px;
+    font-size: 50px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px rgb(150, 53, 164);
+
+}
