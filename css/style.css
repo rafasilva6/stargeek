@@ -57,7 +57,7 @@
     border-radius: 25px;
     background-color: black;
     width: 460px;
-    height: 550px;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 
@@ -91,17 +91,26 @@
     margin-top: 40px;
     margin-left: 70px;
     width: 300px;
+    height: 30px;
     border: 3px solid rgb(150, 53, 164);
     background-color: white;
-    padding: 10px;
+    padding: 0px;
     text-decoration: none;
 }
-
-.botao2>img {
+.botao2>a{
     width: 20px;
+    height: 20px;
+    padding: 1px;
+    margin-top: 1px;
+}
+.botao2>img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
 }
 
 .botao3 {
+    border-radius: 0px;
 
     width: 150px;
     height: 30px;
@@ -114,6 +123,7 @@
     margin-left: 150px;
 }
 
+
 .redes-sociais {
     display: flex;
     flex-direction: column;
@@ -122,7 +132,7 @@
 .senha {
     font-size: 12px;
     text-align: right;
-    padding-right: 40px;
+    padding-left: 250px;
     color: white;
 }
 
@@ -341,7 +351,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
 }
 
 .banner > video {
@@ -425,6 +436,7 @@
 }
 .p4{
     margin-left: 80px;
+    padding-top: 80px;
     
     font-size: 40px;
     font-weight: 800;
@@ -445,9 +457,7 @@
     width: 280px;
     height: 150px;
 }
-.filme:hover{
-  
-}
+
 .titulo-perfil{
     color: white;
     text-align: center;
@@ -474,5 +484,70 @@ li {
 }
 .lcdp:hover{
     content: url(../img/git-lcdp.gif);
+}
+.barraca:hover{
+    content: url(../img/gif-barracadobeijo.gif);
+}
+.joker:hover{
+    content: url(../img/gif-joker.gif);
+}
+.scooby:hover{
+    content: url(../img/gif-scooby.webp);
+}
+.tropadeelite:hover{
+    content: url(../img/gif-tropadeelite.gif);
+}
+.it-acoisa:hover{
+    content: url(../img/gif-it-acoisa.gif);
+
+}
+.noe:hover{
+    content: url(../img/gif-noe.gif);
+
+}
+.cruella:hover{
+    content: url(../img/gif-cruella.gif);
+
+}
+.megan:hover{
+    content: url(../img/gif-megan.gif);
+}
+.urso:hover{
+    content: url(../img/gif-urso.gif);
+}
+.dias:hover{
+    content: url(../img/gif-365dias.gif);
+}
+.minhamae:hover{
+    content: url(../img/gif-minhamae.gif);
+}
+.asbranquelas:hover{
+    content: url(../img/gif-asbranquelas.gif);
+}
+.gentegrande:hover{
+    content: url(../img/gif-gentegrande.gif);
+}
+
+
+
+.botao7{
+    height: 30px;
+    width: 80px;
+    border: 3px solid rgb(150, 53, 164);
+    
+}
+.div5{
+    margin-left: 125px;
+    padding: 20px;
+
+}
+.livro2{
+    padding-left: 40px;
+    padding-top: 40px;
+    height: 190px;
+    width: 300px;
+}
+.livro2:hover{
+    opacity: 0.5;
 }
 
